@@ -1,48 +1,60 @@
 import React from 'react';
+import { Navbar, Container, Nav } from 'react-bootstrap'
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
+    <Navbar bg="dark" expand="lg" sticky="top" >
+      <Container>
+        <Navbar.Brand 
+          href="#home" 
+          onClick={() => handlePageChange('Home')} 
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
-          patricktheodore.
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#mywork"
-          onClick={() => handlePageChange('MyWork')}
-
-          className={currentPage === 'MyWork' ? 'nav-link active' : 'nav-link'}
-        >
-          Blog
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#contact"
-
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-      </li>
-    </ul>
+          patricktheodore
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto mb-2 mb-lg-0 gx-0">
+            <li className="nav-item">
+              <Nav.Link
+                href="#home"
+                onClick={() => handlePageChange('Home')}
+                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+              >
+                home
+              </Nav.Link>
+            </li>
+            <li className="nav-item">
+              <Nav.Link
+                href="#about"
+                onClick={() => handlePageChange('About')}
+                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+              >
+                about
+              </Nav.Link>
+            </li>
+            <li className="nav-item">
+              <Nav.Link
+                href="#portfolio"
+                onClick={() => handlePageChange('Portfolio')}
+                className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+              >
+                portfolio
+              </Nav.Link>
+            </li>
+            <li className="nav-item">
+              <Nav.Link
+                href="#contact"
+                onClick={() => handlePageChange('Contact')}
+                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+              >
+                contact
+              </Nav.Link>
+            </li>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
@@ -51,6 +63,7 @@ export default NavTabs;
 
 {/* <header class="sticky-top">
   <nav class="navbar navbar-expand-lg sitcky-top navbar-dark bg-dark custom-nav">
+    
     <div className="container-fluid">
       <a
         href="#home"
