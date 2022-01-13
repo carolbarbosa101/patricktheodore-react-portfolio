@@ -18,7 +18,7 @@ body::-webkit-scrollbar-thumb {
 
 .navbar {
     background-color: #343a40;
-    height: 6rem;
+    min-height: 6rem;
     margin-bottom: 3rem;
 }
 
@@ -28,6 +28,7 @@ body::-webkit-scrollbar-thumb {
 
 .nav-link {
     color: #e3e8ec !important;
+    margin: 0.5rem 0;
 }
 
 .active {

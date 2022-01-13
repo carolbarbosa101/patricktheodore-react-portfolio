@@ -1,12 +1,17 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { bars } from '@fortawesome/fontawesome-free'
 import '../styles/Nav.css';
+
+const burgerNav = <FontAwesomeIcon icon={bars} size="2x" />
+
 
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <Navbar className="navbar" expand="lg" sticky="top" >
-      <Container className="nav-cont">
+    <Navbar collapseOnSelect className="navbar" expand="lg" sticky="top" >
+      <div className="container-fluid">
         <Navbar.Brand
           className="nav-link" 
           href="#about" 
@@ -14,10 +19,9 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           patricktheodore
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse className="justify-content-end text-center" id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="menu" />
+        <Navbar.Collapse className="justify-content-end text-center" id="menu">
           <Nav>
-            <li>
               <Nav.Link
                 href="#about"
                 onClick={() => handlePageChange('About')}
@@ -25,8 +29,6 @@ function NavTabs({ currentPage, handlePageChange }) {
               >
                 about
               </Nav.Link>
-            </li>
-            <li>
               <Nav.Link
                 href="#portfolio"
                 onClick={() => handlePageChange('Portfolio')}
@@ -34,8 +36,6 @@ function NavTabs({ currentPage, handlePageChange }) {
               >
                 portfolio
               </Nav.Link>
-            </li>
-            <li>
               <Nav.Link
                 href="#contact"
                 onClick={() => handlePageChange('Contact')}
@@ -43,8 +43,6 @@ function NavTabs({ currentPage, handlePageChange }) {
               >
                 contact
               </Nav.Link>
-            </li>
-            <li>
               <Nav.Link
                 href="#resume"
                 onClick={() => handlePageChange('Resume')}
@@ -52,12 +50,12 @@ function NavTabs({ currentPage, handlePageChange }) {
               >
                 resume
               </Nav.Link>
-            </li>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </div>
     </Navbar>
   );
 }
 
 export default NavTabs;
+
