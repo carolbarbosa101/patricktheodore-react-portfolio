@@ -22,6 +22,10 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 3rem;
 }
 
+.nav-cont {
+    background-color: #343a40;
+}
+
 .nav-link {
     color: #e3e8ec !important;
 }

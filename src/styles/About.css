@@ -1,3 +1,7 @@
 .project-card {
     margin-bottom: 5rem;
 }
+
+#avatar {
+    height: 12rem;
+}

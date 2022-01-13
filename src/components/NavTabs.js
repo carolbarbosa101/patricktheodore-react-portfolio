@@ -6,7 +6,7 @@ import '../styles/Nav.css';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <Navbar className="navbar" expand="lg" sticky="top" >
-      <Container>
+      <Container className="nav-cont">
         <Navbar.Brand
           className="nav-link" 
           href="#about" 
@@ -16,7 +16,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end text-center" id="basic-navbar-nav">
-          <Nav className="mb-2 mb-lg-0 gx-0 nav-links">
+          <Nav>
             <li>
               <Nav.Link
                 href="#about"

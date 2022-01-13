@@ -11,7 +11,7 @@ export default function About() {
                 <h2 className="text-center" id="welcome-banner">Designer, Front-end Specialist &#38; Full-stack Developer</h2>
                 <h4 className="text-center" id="welcome-banner-subtext">I design and code beatifully simple things, and I love what I do.</h4>
             </Col>
-            <Col className="col-12 text-center">
+            <Col className="col-12 text-center avatar-img">
                 <img src={Avatar} id="avatar" alt="my avatar"></img>
             </Col>
           </Row>
