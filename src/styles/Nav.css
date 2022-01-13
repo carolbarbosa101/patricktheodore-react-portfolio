@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap);
+
+* {
+    line-height: 1.5;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #343a40;
+    opacity: 1;
+}
+
+.navbar {
+    background-color: #343a40;
+    height: 6rem;
+    margin-bottom: 3rem;
+}
+
+.nav-link {
+    color: #e3e8ec !important;
+}
+
+.active {
+    color: aquamarine !important;
+}
+
+.nav-link:hover {
+    color: #a7a7a7 !important;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
