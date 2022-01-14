@@ -1,7 +1,7 @@
 import React from 'react';
-import Avatar from '../../assets/img/Avatar.png';
+import Avatar from '../assets/img/Avatar.png';
 import { Container, Row, Col } from 'react-bootstrap';
-import '../../styles/About.css'
+import '../styles/About.css'
 
 export default function About() {
   return (

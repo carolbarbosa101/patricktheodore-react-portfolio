@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Card, Button, Modal } from "react-bootstrap";
-import '../../styles/About.css'
 
 function Portfolio(props) {
   const [show, setShow] = useState(false)

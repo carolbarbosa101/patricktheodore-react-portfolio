@@ -4,13 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { bars } from '@fortawesome/fontawesome-free'
 import '../styles/Nav.css';
 
-const burgerNav = <FontAwesomeIcon icon={bars} size="2x" />
-
-
+const burgerNav = <FontAwesomeIcon icon={bars} />
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <Navbar collapseOnSelect className="navbar" expand="lg" sticky="top" >
+    <Navbar collapseOnSelect className="navbar" expand="lg" sticky="top" variant="dark" >
       <div className="container-fluid">
         <Navbar.Brand
           className="nav-link" 
@@ -19,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           patricktheodore
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="menu" />
+        <Navbar.Toggle aria-controls="menu" className={burgerNav}/>
         <Navbar.Collapse className="justify-content-end text-center" id="menu">
           <Nav>
               <Nav.Link
@@ -31,10 +29,10 @@ function NavTabs({ currentPage, handlePageChange }) {
               </Nav.Link>
               <Nav.Link
                 href="#portfolio"
-                onClick={() => handlePageChange('Portfolio')}
-                className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                onClick={() => handlePageChange('Projects')}
+                className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
               >
-                portfolio
+                projects
               </Nav.Link>
               <Nav.Link
                 href="#contact"
