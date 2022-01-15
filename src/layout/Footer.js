@@ -39,10 +39,10 @@ function Footer() {
                     <Nav.Link href="https://dribbble.com/patricktheodore" target="_blank">{dribble}</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="social-fa">
-                    <Nav.Link href="https://dribbble.com/patricktheodore" target="_blank">{instagram}</Nav.Link>
+                    <Nav.Link href="https://www.instagram.com/patrick_theodore_/?hl=en" target="_blank">{instagram}</Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="social-fa">
-                    <Nav.Link href="https://dribbble.com/patricktheodore" target="_blank">{envelope}</Nav.Link>
+                    <Nav.Link href="mailto:patricktheodoresara@gmail.com">{envelope}</Nav.Link>
                 </Nav.Item>
             </Nav>
             <Row className="footer-btm-row">
