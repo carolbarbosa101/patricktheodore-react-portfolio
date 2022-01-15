@@ -47,7 +47,7 @@
 
 .skills-cont {
     margin-top: -10rem;
-    margin-bottom: 10rem;
+    margin-bottom: 6rem;
 }
 
 .skills {
@@ -59,8 +59,8 @@
 
 .skills-header {
     font-size: 1.2rem;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
 }
 
 .skills-ul {
@@ -71,6 +71,7 @@
 
 li {
     list-style: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .skills-icon {
@@ -83,11 +84,27 @@ li {
 }
 
 .skills-title {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
 }
 
 #middle-col {
     border: 1px solid #E6ECF8;
+}
 
+.language-ico {
+    height: 2rem;
+    margin: 2rem 0;
+}
 
+.skill-ico {
+    height: 5rem;
+}
+
+.languages-cont {
+    margin: 0 6rem 4rem 6rem !important;
+}
+
+.languages-header {
+    font-size: 1.2rem;
 }

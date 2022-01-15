@@ -4,13 +4,7 @@ import Avatar from '../assets/img/Avatar.png';
 import Greeting from '../containers/About/AboutGreeting';
 import Skills from '../containers/About/AboutToolbelt'
 import { Container, Row, Col } from 'react-bootstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faToolbox } from '@fortawesome/free-solid-svg-icons';
-
-const toolbox = <FontAwesomeIcon icon={faToolbox} size="2x" />
-
-
-
+import ToolbeltLanguages from '../containers/About/ToolbeltLanguages';
 
 export default function About() {
   return (
@@ -28,6 +22,7 @@ export default function About() {
         </Container>
         <Greeting /> 
         <Skills />
+        <ToolbeltLanguages />
       </Container>
   );
 }
