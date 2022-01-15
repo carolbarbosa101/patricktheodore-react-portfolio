@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGithub, faLinkedin, faDribbble, faInstagram, faBootstrap, faReact } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faCopyright } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Footer.css';
-import pslogo from '../assets/img/pslogo.png';
+import pslogo from '../assets/img/pslogo-fat.png';
 
 
 const facebook = <FontAwesomeIcon icon={faFacebook} size="2x" />
