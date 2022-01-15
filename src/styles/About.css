@@ -3,5 +3,20 @@
 }
 
 #avatar {
-    height: 12rem;
+    height: 15rem;
+    margin-bottom: 5rem;
+}
+
+#welcome-banner {
+    margin-top: 5rem;
+    font-weight: bold;
+}
+
+#welcome-banner,
+#welcome-banner-subtext {
+    margin-bottom: 2rem;
+}
+
+.is-roboto {
+    font-family: 'Roboto', sans-serif;
 }

@@ -5,11 +5,11 @@ import '../styles/About.css'
 
 export default function About() {
   return (
-      <Container>
+      <Container className="container-fluid ">
           <Row className="justify-content-md-center">
             <Col className="col-10">
                 <h2 className="text-center" id="welcome-banner">Designer, Front-end Specialist &#38; Full-stack Developer</h2>
-                <h4 className="text-center" id="welcome-banner-subtext">I design and code beatifully simple things, and I love what I do.</h4>
+                <h5 className="text-center" id="welcome-banner-subtext">I design and code beatifully simple things, and I love what I do.</h5>
             </Col>
             <Col className="col-12 text-center avatar-img">
                 <img src={Avatar} id="avatar" alt="my avatar"></img>
@@ -18,7 +18,7 @@ export default function About() {
           <Row>
               <Col>
                 <h4>Hi, I'm Patrick. Nice to meet you.</h4>
-                <p>
+                <p className="is-roboto">
                 full stack web developer leveraging hospitality management and an architecture background
                         to build
                         a more aesthetically pleasing and interactive UI experience on the web. I obtained a Certificate

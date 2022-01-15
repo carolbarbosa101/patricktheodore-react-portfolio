@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { bars } from '@fortawesome/fontawesome-free'
 import '../styles/Nav.css';
 
+
 const burgerNav = <FontAwesomeIcon icon={bars} />
 
 function NavTabs({ currentPage, handlePageChange }) {
@@ -23,28 +24,28 @@ function NavTabs({ currentPage, handlePageChange }) {
               <Nav.Link
                 href="#about"
                 onClick={() => handlePageChange('About')}
-                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'About' ? 'nav-link activated' : 'nav-link'}
               >
                 about
               </Nav.Link>
               <Nav.Link
                 href="#portfolio"
                 onClick={() => handlePageChange('Projects')}
-                className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'Projects' ? 'nav-link activated' : 'nav-link'}
               >
                 projects
               </Nav.Link>
               <Nav.Link
                 href="#contact"
                 onClick={() => handlePageChange('Contact')}
-                className={currentPage === 'Contact' ? 'nav-link-active' : 'nav-link'}
+                className={currentPage === 'Contact' ? 'nav-link activated' : 'nav-link'}
               >
                 contact
               </Nav.Link>
               <Nav.Link
                 href="#resume"
                 onClick={() => handlePageChange('Resume')}
-                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'Resume' ? 'nav-link activated' : 'nav-link'}
               >
                 resume
               </Nav.Link>

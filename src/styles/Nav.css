@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb {
     color: #e3e8ec !important;
 }
 
-.active {
+.activated {
     color: aquamarine !important;
 }
 
@@ -42,4 +42,5 @@ body::-webkit-scrollbar-thumb {
 .navbar-toggler {
     border-color: #343a40 !important;
 }
+
 

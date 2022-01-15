@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+#footer-cont {
+    background-color: #343a40;
+}
+
+.social-fa {
+    margin: 1rem;
+}
+
+.powered-by {
+    font-size: 0.75rem;
+}
+
+.is-muted {
+    color: #a7a7a7;
+}
+
+.footer-col {
+    margin: 1rem 0rem;
+}
+
+.footer-btm-row {
+    padding: 3rem 0;
+}
+
+#copyright {
+    margin-bottom: 2rem;
+}
+
+.is-roboto {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+#pslogo {
+    height: 5rem;
+    margin: 5rem 0 3rem 0;
+    padding-left: 1rem;
+}
