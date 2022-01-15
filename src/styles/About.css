@@ -7,7 +7,9 @@
     margin-bottom: 5rem;
 }
 
-#welcome-banner {
+#welcome-banner,
+#tool-belt-header,
+.skills-title {
     margin-top: 5rem;
     font-weight: bold;
 }
@@ -19,4 +21,73 @@
 
 .is-roboto {
     font-family: 'Roboto', sans-serif;
+}
+
+.greeting-cont {
+    background-color: #343a40;
+    width: 100%;
+}
+
+.about-cont {
+    padding: 0 !important;
+}
+
+.is-white {
+    color: #e3e8ec;
+}
+
+#greeting-header {
+    margin: 10rem 0 3rem 0;
+}
+
+#greeting-body {
+    font-size: 1.2rem;
+    margin-bottom: 20rem;
+}
+
+.skills-cont {
+    margin-top: -10rem;
+    margin-bottom: 10rem;
+}
+
+.skills {
+    background-color: white;
+    margin: 0 5rem !important;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+}
+
+.skills-header {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.skills-ul {
+    padding: 0 !important;
+    margin: 0;
+    margin-bottom: 5rem;
+}
+
+li {
+    list-style: none;
+}
+
+.skills-icon {
+    color: #343a40;
+    font-size: 1.5rem;
+}
+
+.skills-list {
+    padding: 5rem 4rem 0 4rem !important;
+}
+
+.skills-title {
+    padding-bottom: 2rem;
+}
+
+#middle-col {
+    border: 1px solid #E6ECF8;
+
+
 }
