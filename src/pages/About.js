@@ -22,7 +22,7 @@ export default function About() {
         </Container>
         <Greeting /> 
         <Skills />
-        <ToolbeltLanguages />
+        {/* <ToolbeltLanguages /> */}
       </Container>
   );
 }

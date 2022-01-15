@@ -14,6 +14,10 @@
     font-weight: bold;
 }
 
+.skills-title {
+    margin-top: 2rem;
+}
+
 #welcome-banner,
 #welcome-banner-subtext {
     margin-bottom: 2rem;
@@ -88,21 +92,17 @@ li {
     font-weight: bold;
 }
 
-#middle-col {
-    border: 1px solid #E6ECF8;
-}
-
 .language-ico {
     height: 2rem;
     margin: 2rem 0;
 }
 
 .skill-ico {
-    height: 5rem;
+    height: 4rem;
 }
 
 .languages-cont {
-    margin: 0 6rem 4rem 6rem !important;
+    margin: 0 8rem 4rem 8rem !important;
 }
 
 .languages-header {

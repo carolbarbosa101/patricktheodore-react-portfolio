@@ -3,6 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import responsiveDesign from '../../assets/logos/responsive-design.ico';
 import designTools from '../../assets/logos/design-tools.ico';
 import server from '../../assets/logos/server.ico';
+import ToolbeltLanguages from '../About/ToolbeltLanguages';
+
 
 export default function AboutSkills() {
     return (
@@ -54,6 +56,7 @@ export default function AboutSkills() {
                         <li>Node.js</li>
                     </ul>
                 </Col>
+                <ToolbeltLanguages />
             </Row>
         </Container>
     )
