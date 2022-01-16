@@ -1,4 +1,4 @@
-const projects = [
+const featured = [
     {
         title: "weather dash",
         image: require ("../assets/img/confidential.jpeg"),
@@ -7,7 +7,7 @@ const projects = [
         app: "https://www.facebook.com"
     },
     {
-        title: "weather dash",
+        title: "sadbsilaba sbc",
         image: require ("../assets/img/employ-yes-logo.gif"),
         shortDesc: "live weather forecasts",
         github: "https://github.com/patricktheodore/football-highlights-dashboard",
@@ -22,4 +22,4 @@ const projects = [
     },
 ]
 
-export default projects
+export default featured

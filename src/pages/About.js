@@ -4,7 +4,8 @@ import Avatar from '../assets/img/Avatar.png';
 import Greeting from '../containers/About/AboutGreeting';
 import Skills from '../containers/About/AboutToolbelt'
 import { Container, Row, Col } from 'react-bootstrap';
-import ToolbeltLanguages from '../containers/About/ToolbeltLanguages';
+import AboutFeatured from '../containers/About/AboutFeatured';
+import featured from '../utils/featured';
 
 export default function About() {
   return (
@@ -22,7 +23,7 @@ export default function About() {
         </Container>
         <Greeting /> 
         <Skills />
-        {/* <ToolbeltLanguages /> */}
+        <AboutFeatured featured={featured}/>
       </Container>
   );
 }

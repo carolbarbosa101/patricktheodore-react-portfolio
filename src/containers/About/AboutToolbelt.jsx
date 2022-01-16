@@ -10,7 +10,7 @@ export default function AboutSkills() {
     return (
         <Container fluid className="skills-cont">
             <Row className="justify-content-center skills">
-                <Col sm={12} lg={4} className="text-center skills-list">
+                <Col xs={12} lg={4} className="text-center skills-list">
                     <img alt="responsive design logo" src={responsiveDesign} className="skill-ico"></img>
                     <h4 className="skills-title">Front-end Specialist</h4>
                     <p className="is-roboto">I value fast load times, lag free interactions, responsive design, and clean
@@ -27,7 +27,7 @@ export default function AboutSkills() {
                         <li>Sweet Alert</li>
                     </ul>
                 </Col>
-                <Col sm={12} lg={4} className="text-center skills-list" id="middle-col">
+                <Col xs={12} lg={4} className="text-center skills-list" id="middle-col">
                     <img alt="design tools logo" src={designTools} className="skill-ico"></img>
                     <h4 className="skills-title">Designer</h4>
                     <p className="is-roboto">Less is more. I enjoy simple, aesthically pleasing accessible content and intuitive
@@ -42,11 +42,11 @@ export default function AboutSkills() {
                         <li>Photoshop</li>
                     </ul>
                 </Col>
-                <Col sm={12} lg={4} className="text-center skills-list">
+                <Col xs={12} lg={4} className="text-center skills-list">
                     <img alt="server logo" src={server} className="skill-ico"></img>
                     <h4 className="skills-title">Back-end Developer</h4>
                     <p className="is-roboto">I enjoy creating well structured back-ends to facilitate my passion for front-end productions.</p>
-                    <h5 className="skills-header">Technologies I use:</h5>
+                    <h5 className="skills-header">Technologies:</h5>
                     <ul className="skills-ul">
                         <li>Express</li>
                         <li>Jest</li>
