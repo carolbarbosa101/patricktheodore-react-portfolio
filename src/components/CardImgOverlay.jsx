@@ -19,11 +19,11 @@ export default function CardImgOverlay(props) {
     return (
       <Container fluid className="hover-text">
         <Row>
-          <Col sm={12} className="text-center">
+          <Col sm={12} className="text-center is-white">
             <h3>{props.project.title}</h3>
           </Col>
           <Col sm={12} className="text-center">
-            <h5 className="is-roboto">{props.project.shortDesc}</h5>
+            <h5 className="is-roboto is-white">{props.project.shortDesc}</h5>
           </Col>
         </Row>
         <Row className="d-grid gap-2">

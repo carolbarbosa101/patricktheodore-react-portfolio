@@ -113,11 +113,13 @@ li {
 .project-card {
     overflow: hidden;
     margin-bottom: 1.5rem;
+    box-shadow: 0 0 5px #343a40;
 }
 
 #hovered:hover > .card-image {
     width: 100%;
-    filter: opacity(0.2);
+    filter: opacity(0.1);
+    filter: brightness(30%);
     transition: all 500ms ease;
 }
 

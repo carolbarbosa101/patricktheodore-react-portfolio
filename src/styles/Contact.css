@@ -1,3 +1,4 @@
-#fullWidth {
-    height: 4rem;
+.form-input {
+    display: inline-block;
+    width: 100%;
 }
