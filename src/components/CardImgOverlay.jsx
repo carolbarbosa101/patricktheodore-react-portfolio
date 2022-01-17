@@ -1,13 +1,13 @@
 import { React, useState } from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, Container, Row, Col } from 'react-bootstrap';
 import DocsButton from '../components/DocsButton';
 import AppButton from "../components/AppButton";
 
 export default function CardImgOverlay(props) {
 
-const [isHovering, setIsHovering] = useState(false);
+  const [isHovering, setIsHovering] = useState(false);
 
-const handleMouseEnter = () => {
+  const handleMouseEnter = () => {
     setIsHovering(true);
   };
 
@@ -17,20 +17,26 @@ const handleMouseEnter = () => {
 
   const HoverText = () => {
     return (
-      <div>
-          <h1>{props.project.title}</h1>
-          <p>{props.project.shortDesc}</p>
-          <div className="d-grid gap-2">
+      <Container fluid className="hover-text">
+        <Row>
+          <Col sm={12} className="text-center">
+            <h3>{props.project.title}</h3>
+          </Col>
+          <Col sm={12} className="text-center">
+            <h5 className="is-roboto">{props.project.shortDesc}</h5>
+          </Col>
+        </Row>
+        <Row className="d-grid gap-2">
           <AppButton app={props.project.app} />
           <DocsButton github={props.project.github} />
-          </div>
-      </div>
+        </Row>
+      </Container>
     );
   };
 
-    return (
-        <Card.ImgOverlay onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            {isHovering && <HoverText />}
-        </Card.ImgOverlay>
-    )
+  return (
+    <Card.ImgOverlay onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      {isHovering && <HoverText />}
+    </Card.ImgOverlay>
+  )
 }
