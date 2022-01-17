@@ -22,7 +22,7 @@ function Footer() {
         <Container fluid id="footer-cont" >
             <Row className="justify-content-center">
                 <Col sm={3} className="text-center ">
-                <img src={pslogo} id="pslogo" alt="my logo"></img>
+                    <img src={pslogo} id="pslogo" alt="my logo"></img>
                 </Col>
             </Row>
             <Nav className="justify-content-center" sticky="bottom">
