@@ -9,7 +9,8 @@
 
 #welcome-banner,
 #tool-belt-header,
-.skills-title {
+.skills-title,
+.featured-title {
     margin-top: 5rem;
     font-weight: bold;
 }
@@ -111,6 +112,7 @@ li {
 
 .project-card {
     overflow: hidden;
+    margin-bottom: 1.5rem;
 }
 
 #hovered:hover > .card-image {
@@ -123,3 +125,11 @@ li {
     transform: scale(2);
 }
 
+.featured-projects { 
+    margin: 5rem 5rem !important;
+}
+
+.featured-title {
+    margin-bottom: 2rem;
+    padding-top: 5rem;
+}

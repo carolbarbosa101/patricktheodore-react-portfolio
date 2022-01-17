@@ -14,15 +14,14 @@ function AboutFeatured(props) {
         setOpacity('');
     }
 
+
     return (
         <Container fluid>
             <Row className="justify-content-center">
-                <h3 className="text-center">Featured Projects</h3>
+                <h3 className="text-center featured-title">Featured Projects</h3>
                 <h5 className="text-center is-roboto">Here are some projects I've worked on recently.</h5>
-                <h5 className="text-center is-roboto">Want to see more?</h5>
-                
             </Row>
-            <Row>
+            <Row className="featured-projects">
                 {props.featured.map((project) => (
                     <Col sm={12} lg={4}>
                         <Card id={opacity} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="project-card">
