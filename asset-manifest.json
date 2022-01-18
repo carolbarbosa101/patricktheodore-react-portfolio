@@ -1,16 +1,39 @@
 {
   "files": {
-    "main.css": "/patricktheodore-react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/patricktheodore-react-portfolio/static/js/main.82255aac.js",
-    "static/js/787.bb528d67.chunk.js": "/patricktheodore-react-portfolio/static/js/787.bb528d67.chunk.js",
-    "static/media/logo.svg": "/patricktheodore-react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/patricktheodore-react-portfolio/static/css/main.5c7fe46a.css",
+    "main.js": "/patricktheodore-react-portfolio/static/js/main.7e57291e.js",
+    "static/media/employ-yes-logo.gif": "/patricktheodore-react-portfolio/static/media/employ-yes-logo.3a340eb6bb4ba9403ffe.gif",
+    "static/media/pslogo-fat.png": "/patricktheodore-react-portfolio/static/media/pslogo-fat.0929f4b2d077116cea50.png",
+    "static/media/javascript-quiz-logo.gif": "/patricktheodore-react-portfolio/static/media/javascript-quiz-logo.1d8386b98154a9a6bd6f.gif",
+    "static/media/weather-dash-logo.png": "/patricktheodore-react-portfolio/static/media/weather-dash-logo.047abfbb4cc6a68ab692.png",
+    "static/media/Avatar.png": "/patricktheodore-react-portfolio/static/media/Avatar.1b46dce082453902d9d4.png",
+    "static/media/perfect-readme-generator.png": "/patricktheodore-react-portfolio/static/media/perfect-readme-generator.6922f7f9bede54bd3ed4.png",
+    "static/media/highlights-hub-logo.png": "/patricktheodore-react-portfolio/static/media/highlights-hub-logo.1a57b15c6e4870830f59.png",
+    "static/media/team-builder-logo.png": "/patricktheodore-react-portfolio/static/media/team-builder-logo.0ee938978a601e4d2e9b.png",
+    "static/media/techblog-logo.png": "/patricktheodore-react-portfolio/static/media/techblog-logo.4834dbaca089ac25ea7d.png",
+    "static/media/note-taker-logo.png": "/patricktheodore-react-portfolio/static/media/note-taker-logo.88d098a6e47b0ee7fbe2.png",
+    "static/media/renters-review.png": "/patricktheodore-react-portfolio/static/media/renters-review.e84d936d31007bcccdb8.png",
+    "static/media/github.ico": "/patricktheodore-react-portfolio/static/media/github.3037125e0c17759b268e.ico",
+    "static/media/git.ico": "/patricktheodore-react-portfolio/static/media/git.bc41bc02eca5cbd26cf8.ico",
+    "static/media/mongodb.ico": "/patricktheodore-react-portfolio/static/media/mongodb.1ef91ca5708f73d8c307.ico",
+    "static/media/react.ico": "/patricktheodore-react-portfolio/static/media/react.49b38994cd6bbebfe21d.ico",
+    "static/media/design-tools.ico": "/patricktheodore-react-portfolio/static/media/design-tools.604575bb5dca3d56ec0b.ico",
+    "static/media/python.ico": "/patricktheodore-react-portfolio/static/media/python.2a82b0390047339331f5.ico",
+    "static/media/node-js.ico": "/patricktheodore-react-portfolio/static/media/node-js.6b32bf8540559a488947.ico",
+    "static/media/mysql.ico": "/patricktheodore-react-portfolio/static/media/mysql.7d1967ce7be31b1598af.ico",
+    "static/media/html5.ico": "/patricktheodore-react-portfolio/static/media/html5.95b4687b425dabcb6a70.ico",
+    "static/media/express.ico": "/patricktheodore-react-portfolio/static/media/express.7d10ed5e7866d537f2c8.ico",
+    "static/media/javascript.ico": "/patricktheodore-react-portfolio/static/media/javascript.55cb010877d2087361e5.ico",
+    "static/media/css3.ico": "/patricktheodore-react-portfolio/static/media/css3.9d6047cea2181c55b804.ico",
+    "static/media/responsive-design.ico": "/patricktheodore-react-portfolio/static/media/responsive-design.3d091b43c0b645fc5b03.ico",
+    "static/media/server.ico": "/patricktheodore-react-portfolio/static/media/server.d67713df7ad83ea5e290.ico",
+    "static/media/npm.ico": "/patricktheodore-react-portfolio/static/media/npm.11d7a7dde7b73e559c5c.ico",
     "index.html": "/patricktheodore-react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/patricktheodore-react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.82255aac.js.map": "/patricktheodore-react-portfolio/static/js/main.82255aac.js.map",
-    "787.bb528d67.chunk.js.map": "/patricktheodore-react-portfolio/static/js/787.bb528d67.chunk.js.map"
+    "main.5c7fe46a.css.map": "/patricktheodore-react-portfolio/static/css/main.5c7fe46a.css.map",
+    "main.7e57291e.js.map": "/patricktheodore-react-portfolio/static/js/main.7e57291e.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.82255aac.js"
+    "static/css/main.5c7fe46a.css",
+    "static/js/main.7e57291e.js"
   ]
 }
