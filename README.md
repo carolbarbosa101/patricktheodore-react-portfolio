@@ -1,70 +1,78 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1 align="center">React Portfolio</h1>
 
-## Available Scripts
+  <p align="center">
+  <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio/issues"><img alt="number of issues for the repository" src="https://img.shields.io/github/issues/patricktheodore/patricktheodore-react-portfolio?color=red&label=Issues&style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio"><img alt="the size of the repo in kb" src="https://img.shields.io/github/repo-size/patricktheodore/patricktheodore-react-portfolio?color=orange&label=Repo-Size&style=for-the-badge" target="_blank" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img alt="licence the repo is published under" src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio/graphs/contributers"><img alt="the number of contributers on the repo" src="https://img.shields.io/github/contributors/patricktheodore/patricktheodore-react-portfolio?color=brightgreen&label=Contributors&style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio/network/members"><img alt="total number of times the repo has been forked" src="https://img.shields.io/github/forks/patricktheodore/patricktheodore-react-portfolio?color=blue&label=Forks&style=for-the-badge" target="_blank" /></a>
+  <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio/stargazers"><img alt="total number of times the repo has been starred" src="https://img.shields.io/github/stars/patricktheodore/patricktheodore-react-portfolio?color=blueviolet&label=Stars&style=for-the-badge" target="_blank" /></a>
+  </p>
 
-In the project directory, you can run:
+  <div align="center">
+    <p>
+      <h3>Professional Portfolio</h3>
+      <p>Powered by React & Bootstrap</p>
+      <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio"><strong>Explore the docs »</strong></a>
+      <br />
+      <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio">View Demo</a>
+       | 
+      <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio/issues">Report Bug</a>
+       | 
+      <a href="https://github.com/patricktheodore/patricktheodore-react-portfolio/issues">Request Feature</a>
+    </p>
+  </div>
 
-### `npm start`
+  <br />
+  <br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  # Screenshots of Deployed App
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![portfolio-landing-page](/src/assets/readme/Screen%20Shot%202022-01-18%20at%205.26.32%20pm.png)
+![technical-proficiencies-section](/src/assets/readme/Screen%20Shot%202022-01-18%20at%205.26.45%20pm.png)
+![portfolio-projects](/src/assets/readme/Screen%20Shot%202022-01-18%20at%205.27.00%20pm.png)
+![contact-me-form](/src/assets/readme/Screen%20Shot%202022-01-18%20at%205.27.16%20pm.png)
+![footer](/src/assets/readme/Screen%20Shot%202022-01-18%20at%205.27.22%20pm.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  # Built With
+  <p align="center">
+<a><img alt="badge for BootStrap Library" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Canva" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for CSS3 Language" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Figma" src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for FontAwesome" src="https://img.shields.io/badge/Font_Awesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Git" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Google Drive" src="https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Google Fonts" src="https://img.shields.io/badge/google_fonts-4285F4?style=for-the-badge&logo=google&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for HTML5 Language" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for HTML5 Language" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Markdown Language" src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for NPM" src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for Node.js" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" target="_blank" /></a>
+<a><img alt="badge for React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" target="_blank" /></a>
+<a><img alt="badge for Visual Studio Code" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" target="_blank" /></a>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  </p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  
+  </br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+  <!-- LICENSE -->
+  # License
+  Distributed under MIT. Please see for https://opensource.org/licenses/MIT more details. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  <br>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  <!-- QUESTIONS & CONTACT -->
+  # Questions & Contact Info
+  <a href="https://github.com/patricktheodore"><img alt="badge for GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" target="_blank" /></a>
+  <a href=""><img alt="link to user portfolio" src="https://img.shields.io/static/v1?label=PORTFOLIO&message=patricktheodore&color=green&style=for-the-badge" target="_blank" /></a>
+  <a href="mailto:patricktheodoresara@gmail.com"><img alt="Link to email contact address" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
