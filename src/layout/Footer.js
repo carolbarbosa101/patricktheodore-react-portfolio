@@ -49,11 +49,15 @@ function Footer() {
                 <Col sm={12} className="text-center is-muted footer-col" id="copyright">
                     patricktheodore {copyright} twentytwentytwo
                 </Col>
+                <Col sm={12} className="text-center is-muted footer-col" id="copyright">
+                    email me: patricktheodoresara@gmail.com
+                </Col>
                 <Col sm={12} className="justify-content-center footer-col">
                     <Stack direction="horizontal" gap={3} className="justify-content-center">
                         <div className="is-muted">powered by</div>
                         <div className="powered-by is-muted">{react}</div>
                         <div className="powered-by is-muted">{bootstrap}</div>
+                        
                     </Stack>
                 </Col>
             </Row>

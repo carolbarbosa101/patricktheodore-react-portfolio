@@ -9,20 +9,15 @@ export default function Greeting() {
                 <Col sm={12} md={6}>
                     <h3 className="text-center is-white" id="greeting-header">Hi, I'm Patrick. Nice to meet you.</h3>
                     <p className="text-center is-white is-roboto" id="greeting-body">
-                        full stack web developer leveraging hospitality management and an architecture background
-                        to build
-                        a more aesthetically pleasing and interactive UI experience on the web. I obtained a Certificate
+                        Since beginning my journey only 6 months ago, I have obtained a Certificate
                         in Full Stack
-                        Web Development from University of Western Australia in 2022, where I honed my skills in
-                        JavaScript
-                        , responsive web design and node.js . I am passionate about innovative problem solving
+                        Web Development from the University of Western Australia, honed my JavaScript skills and 
+                        developed a wide range of other applicable skills. I am passionate about innovative problem solving
                         and
-                        developing fluid, well designed apps, with a focus on responsive design. My main goal for every
+                        developing fluid, well designed apps, with a focus on responsive design. I believe less is more, and simplicity is king.
+                        My main goal for every
                         project is to deliver an end product which maximises user
-                        experience. I have recently applied my knowledge to create apps that use a mobile-first
-                        approach and implement a fluid layout that gives the user an intuitive experience. I’m very
-                        excited to apply my expanding skill set and build on my knowledge as part of a quality-driven
-                        team.
+                        experience.
                     </p>
                 </Col>
             </Row>

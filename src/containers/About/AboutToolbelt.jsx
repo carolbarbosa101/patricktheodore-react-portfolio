@@ -34,12 +34,11 @@ export default function AboutSkills() {
                         interactions.</p>
                     <h5 className="skills-header">Design Applications:</h5>
                     <ul className="skills-ul">
+                        <li>Adobe Creative Suite</li>
                         <li>Canva</li>
                         <li>Excalidraw</li>
                         <li>Figma</li>
-                        <li>Illustrator</li>
                         <li>Pen &#38; Paper</li>
-                        <li>Photoshop</li>
                     </ul>
                 </Col>
                 <Col xs={12} lg={4} className="text-center skills-list">

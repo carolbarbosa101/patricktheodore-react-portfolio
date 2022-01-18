@@ -43,9 +43,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                 contact
               </Nav.Link>
               <Nav.Link
-                href="#resume"
-                onClick={() => handlePageChange('Resume')}
-                className={currentPage === 'Resume' ? 'nav-link activated' : 'nav-link'}
+                href="https://drive.google.com/file/d/1CCP2GT1o6WA-sjPqbClR3PsP5UcT9Sff/view?usp=sharing"
+                download
+                target="_blank"
               >
                 resume
               </Nav.Link>
