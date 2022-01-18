@@ -7,6 +7,11 @@
 }
 
 .portfolio-projects {
-    margin: 5rem 5rem !important;
+    margin: 5rem 0rem !important;
+}
 
+.img-overlay {
+    align-items: center;
+    display: flex;
+    flex-shrink: 1;
 }

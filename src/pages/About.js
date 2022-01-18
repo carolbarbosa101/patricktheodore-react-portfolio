@@ -11,7 +11,7 @@ export default function About() {
   return (
       <Container fluid className="about-cont">
         <Container>
-          <Row className="justify-content-md-center">
+          <Row className="justify-content-center">
             <Col className="col-10">
                 <h1 className="text-center" id="welcome-banner">Designer, Front-end Specialist &#38; Full-stack Developer</h1>
                 <h5 className="text-center is-roboto" id="welcome-banner-subtext">I design and code beautifully simple things with a heavy focus on UI/UX. </h5>

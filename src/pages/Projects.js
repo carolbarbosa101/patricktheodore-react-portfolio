@@ -28,7 +28,7 @@ function Portfolio(props) {
       </Row>
       <Row className="portfolio-projects">
         {props.projects.map((project) => (
-          <Col sm={12} lg={4}>
+          <Col sm={12} md={6} xl={4}>
             <Card id={opacity} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="project-card">
               <Card.Img src={project.image} className="card-image" />
               <CardImgOverlay project={project} />

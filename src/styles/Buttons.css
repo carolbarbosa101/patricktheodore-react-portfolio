@@ -5,6 +5,7 @@
     border: solid 1px #343a40 !important;
     border-radius: 0.5rem !important;
     font-size: 1rem !important;
+    width: 10rem !important;
 }
 
 .primary:hover,

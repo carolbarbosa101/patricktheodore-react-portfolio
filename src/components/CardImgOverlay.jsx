@@ -17,16 +17,16 @@ export default function CardImgOverlay(props) {
 
   const HoverText = () => {
     return (
-      <Container fluid className="hover-text">
+      <Container fluid className="hover-text align-middle">
         <Row>
           <Col sm={12} className="text-center is-white">
-            <h3>{props.project.title}</h3>
+            <h5>{props.project.title}</h5>
           </Col>
           <Col sm={12} className="text-center">
-            <h5 className="is-roboto is-white">{props.project.shortDesc}</h5>
+            <p className="is-roboto is-white">{props.project.shortDesc}</p>
           </Col>
         </Row>
-        <Row className="d-grid gap-2">
+        <Row className="d-grid gap-2 text-center justify-content-center">
           <AppButton app={props.project.app} />
           <DocsButton github={props.project.github} />
         </Row>
@@ -35,7 +35,7 @@ export default function CardImgOverlay(props) {
   };
 
   return (
-    <Card.ImgOverlay onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <Card.ImgOverlay onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="img-overlay">
       {isHovering && <HoverText />}
     </Card.ImgOverlay>
   )

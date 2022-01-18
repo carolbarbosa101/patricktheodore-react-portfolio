@@ -23,7 +23,7 @@ function AboutFeatured(props) {
             </Row>
             <Row className="featured-projects">
                 {props.featured.map((project) => (
-                    <Col sm={12} lg={4}>
+                    <Col sm={12} md={6} xl={4}>
                         <Card id={opacity} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="project-card">
                             <Card.Img src={project.image} className="card-image"/>
                             <CardImgOverlay project={project} />
