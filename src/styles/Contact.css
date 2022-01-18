@@ -1,4 +1,28 @@
 .form-input {
     display: inline-block;
+    padding: 1rem;
+}
+
+.input-field {
     width: 100%;
+}
+
+#name-input,
+#email-input {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+#submit-button {
+    width: 10rem;
+    margin: 1rem 0 5rem 0;
+}
+
+.contact-greeter {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.contact-header {
+    margin-top: 5rem;
 }

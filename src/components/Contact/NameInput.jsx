@@ -18,7 +18,8 @@ export default function NameInput() {
         return (
             <TextField 
             error
-            id="outlined-basic" 
+            className="input-field is-roboto"
+            id="outlined-basic name-input" 
             label='Invalid Name' 
             variant="outlined"
             size="small"
@@ -29,8 +30,9 @@ export default function NameInput() {
 
     return (
         <TextField 
-        id="outlined-basic" 
-        label='name' 
+        id="outlined-basic name-input is-roboto"
+        className="input-field" 
+        label='Name' 
         variant="outlined"
         size="small"
         value={name}

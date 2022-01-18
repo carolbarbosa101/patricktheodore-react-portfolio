@@ -13,8 +13,8 @@ export default function About() {
         <Container>
           <Row className="justify-content-md-center">
             <Col className="col-10">
-                <h2 className="text-center" id="welcome-banner">Designer, Front-end Specialist &#38; Full-stack Developer</h2>
-                <h5 className="text-center" id="welcome-banner-subtext">I design and code beautifully simple things with a heavy focus on UI/UX. </h5>
+                <h1 className="text-center" id="welcome-banner">Designer, Front-end Specialist &#38; Full-stack Developer</h1>
+                <h5 className="text-center is-roboto" id="welcome-banner-subtext">I design and code beautifully simple things with a heavy focus on UI/UX. </h5>
             </Col>
             <Col className="col-12 text-center avatar-img">
                 <img src={Avatar} id="avatar" alt="my avatar"></img>

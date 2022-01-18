@@ -4,11 +4,17 @@
     color: #e3e8ec !important;
     border: solid 1px #343a40 !important;
     border-radius: 0.5rem !important;
+    font-size: 1rem !important;
 }
 
 .primary:hover,
 .secondary:hover {
     background-color: aquamarine !important;
     color: #343a40 !important;
+}
+
+#submit-button {
+    width: 10rem;
+    margin: 1rem 0 5rem 0;
 }
 

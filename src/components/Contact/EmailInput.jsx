@@ -1,5 +1,6 @@
 import * as React from 'react';
 import TextField from '@mui/material/TextField';
+import '../../styles/Contact.css'
 
 export default function EmailInput() {
 
@@ -19,7 +20,8 @@ export default function EmailInput() {
     return (
         <TextField 
         error
-        id="outlined-basic" 
+        className="input-field"
+        id="outlined-basic email-input" 
         label='Invalid Email' 
         variant="outlined"
         size="small"
@@ -30,8 +32,9 @@ export default function EmailInput() {
 
     return (
         <TextField 
-        id="outlined-basic" 
-        label='email' 
+        id="outlined-basic email-input" 
+        className="input-field"
+        label='Email' 
         variant="outlined"
         size="small"
         value={email}
