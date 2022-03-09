@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/patricktheodore-react-portfolio/static/css/main.5c7fe46a.css",
-    "main.js": "/patricktheodore-react-portfolio/static/js/main.7e57291e.js",
+    "main.js": "/patricktheodore-react-portfolio/static/js/main.954fec1d.js",
     "static/media/employ-yes-logo.gif": "/patricktheodore-react-portfolio/static/media/employ-yes-logo.3a340eb6bb4ba9403ffe.gif",
     "static/media/pslogo-fat.png": "/patricktheodore-react-portfolio/static/media/pslogo-fat.0929f4b2d077116cea50.png",
+    "static/media/FOOTBALL-EVOLUTION-TRAINING.png": "/patricktheodore-react-portfolio/static/media/FOOTBALL-EVOLUTION-TRAINING.f71911056c8752a1e895.png",
     "static/media/javascript-quiz-logo.gif": "/patricktheodore-react-portfolio/static/media/javascript-quiz-logo.1d8386b98154a9a6bd6f.gif",
     "static/media/weather-dash-logo.png": "/patricktheodore-react-portfolio/static/media/weather-dash-logo.047abfbb4cc6a68ab692.png",
     "static/media/Avatar.png": "/patricktheodore-react-portfolio/static/media/Avatar.1b46dce082453902d9d4.png",
@@ -30,10 +31,10 @@
     "static/media/npm.ico": "/patricktheodore-react-portfolio/static/media/npm.11d7a7dde7b73e559c5c.ico",
     "index.html": "/patricktheodore-react-portfolio/index.html",
     "main.5c7fe46a.css.map": "/patricktheodore-react-portfolio/static/css/main.5c7fe46a.css.map",
-    "main.7e57291e.js.map": "/patricktheodore-react-portfolio/static/js/main.7e57291e.js.map"
+    "main.954fec1d.js.map": "/patricktheodore-react-portfolio/static/js/main.954fec1d.js.map"
   },
   "entrypoints": [
     "static/css/main.5c7fe46a.css",
-    "static/js/main.7e57291e.js"
+    "static/js/main.954fec1d.js"
   ]
 }
