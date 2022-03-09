@@ -1,5 +1,12 @@
 const projects = [
     {
+        title: "FOOTBALL EVOLUTION TRAINING APP",
+        image: require ("../assets/img/FOOTBALL-EVOLUTION-TRAINING.png"),
+        shortDesc: "Online Coaching Portal",
+        github: "https://github.com/patricktheodore/football-evolution-training-app",
+        app: "https://football-evolution-training.herokuapp.com/"
+    },
+        {
         title: "RENTERS REVIEW",
         image: require ("../assets/img/renters-review.png"),
         shortDesc: "Review rental properties",
@@ -49,11 +56,11 @@ const projects = [
         app: "https://immense-plains-46535.herokuapp.com/"
     },
     {
-        title: "WEATHER DASHBOARD",
+        title: "WEEKLY WEATHER WIDGET",
         image: require ("../assets/img/weather-dash-logo.png"),
-        shortDesc: "Live weather forecast application",
-        github: "https://github.com/patricktheodore/weather-dash",
-        app: "https://patricktheodore.github.io/weather-dash/"
+        shortDesc: "Weekly Weather Data",
+        github: "https://github.com/patricktheodore/weekly-weather-widget",
+        app: "https://patricktheodore.github.io/weekly-weather-widget/"
     },
     {
         title: "TEAM BUILDER",
